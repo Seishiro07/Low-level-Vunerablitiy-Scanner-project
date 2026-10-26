@@ -13,11 +13,3 @@ Open two terminals in `task1_vuln_scanner/`:
 
 Checks: open ports, missing security headers, outdated/leaked software versions.
 Only works on localhost/private addresses (scan only what you own!).
-
-## Task 02 - Password Strength Checker
-In `task2_password_checker/`:
-
-    python password_checker.py
-
-Checks length, upper/lowercase, numbers, special chars, common passwords,
-and rates it WEAK / MEDIUM / STRONG with suggestions.
